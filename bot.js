@@ -4,9 +4,6 @@ const { Client, GatewayIntentBits } = require('discord.js');
 const token = process.env.BOT_TOKEN;
 const channelId = process.env.CHANNEL_ID;
 
-const config = require('./config.json');  // Make sure the path is correct
-
-
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers] });
 
