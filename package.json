@@ -1,0 +1,17 @@
+{
+  "name": "farewell-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord Bot that sends a farewell message when a member leaves.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "author": "iNet",
+  "license": "ISC"
+}
